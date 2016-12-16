@@ -7,7 +7,7 @@ https://[your-store-name].myshopify.com/admin/apps/private
 
 ## Configure
 ```
-docker run -it --rm -v $(pwd):/srv 6e6a/docker-shopify "theme configure --password=[your-password] --store=[you-store.myshopify.com] --themeid=[your-theme-id]"
+docker run -it --rm -v $(pwd):/srv 6e6a/docker-shopify theme configure --password=[your-password] --store=[you-store.myshopify.com] --themeid=[your-theme-id]
 ```
 
 ## Download your theme
